@@ -1,0 +1,20 @@
+{
+  "kind": "coursekit.run",
+  "_evidence": {
+    "schema_version": 1,
+    "student_id": "2410311322",
+    "experiment_id": "01",
+    "run_id": "769a6e10fd2947e3bc267aa564cce5cc",
+    "captured_at": "2026-10-25T08:41:31.558640+00:00",
+    "stage": "environment"
+  },
+  "result": null,
+  "artifacts": [],
+  "command": [
+    ".\\.venv\\Scripts\\python.exe",
+    "C:\\Users\\13171\\AppData\\Local\\Temp\\bdp-report\\env_probe.py"
+  ],
+  "exit_code": 0,
+  "stdout": "python   3.12.9\nexe      D:\\mumu\\work\\.venv\\Scripts\\python.exe\nos       Windows-11-10.0.26200-SP0\nboto3    1.43.93\nmoto     5.2.3\nduckdb   1.5.5\npyarrow  25.0.1\n",
+  "stderr": ""
+}

@@ -1,0 +1,371 @@
+{
+  "kind": "coursekit.submission",
+  "_evidence": {
+    "schema_version": 1,
+    "student_id": "2410311322",
+    "experiment_id": "01",
+    "run_id": "2002d91e6152493ba157c7deff28f325",
+    "captured_at": "2026-11-04T09:20:41.166505+00:00",
+    "stage": "submission"
+  },
+  "report": {
+    "file": "实验01报告_2410311322.pdf",
+    "sha256": "27e42eff7d373e39cd75e16e835f118719ca6c0874cad0903d2139b74badf700"
+  },
+  "files": [
+    {
+      "file": "artifacts/storage.json",
+      "sha256": "b0a23471a6e2ea09f188b0a1965bcd1fff33e77aad9716b406754256a7608d55"
+    },
+    {
+      "file": "env_probe.py",
+      "sha256": "9a3f48033d76c5fde1be48d7d7bef88afc69b710b3389fb5ef192aafda4cf25a"
+    },
+    {
+      "file": "evidence/00-实验环境.png",
+      "sha256": "eb8ca51d72741da08d98400e85534e088582f01add2683b7f2fadeb16e016ea4"
+    },
+    {
+      "file": "evidence/01-身份登记.png",
+      "sha256": "e797372b4c469cefd80f4a69c93f6a06ca6dbb5331bdd27763aeb31f5b6b1a22"
+    },
+    {
+      "file": "evidence/02-最终结果.png",
+      "sha256": "d2124c21a69063ebe7cb4695153c923e4b7edd845656280542ecf0747ab6d696"
+    },
+    {
+      "file": "evidence/03-附件基线.png",
+      "sha256": "1f91645c8237a8fb0009d5b7b7ece8d6f92fd10c5af96bcccc263be2fdc032d7"
+    },
+    {
+      "file": "evidence/035558819c5f4641b9440554a6aa7844-expected-failure.html",
+      "sha256": "4eeb968d5710f3409217855dc7489ecde6da6f3f6f0981a8a553009597124749"
+    },
+    {
+      "file": "evidence/035558819c5f4641b9440554a6aa7844-expected-failure.json",
+      "sha256": "3e80a31b18bdec90889f91dbe9508801a6a99b11df12aaff3c7add3af94588b8"
+    },
+    {
+      "file": "evidence/038a15d9c9c1472196090c5630ec7842-failed-lab01.html",
+      "sha256": "30f3bb59361ec7c1c8975d5dda57c502e8a5b63b2582dad6f9bf27851534dc5e"
+    },
+    {
+      "file": "evidence/038a15d9c9c1472196090c5630ec7842-failed-lab01.json",
+      "sha256": "302fe27e1ee6beae3647b7761def6a732536b172d867bac0c1fcfd920060d53c"
+    },
+    {
+      "file": "evidence/04-改对象键.png",
+      "sha256": "fa9e4615afd1a4faef1f510b304cd41cc2a7a139ba0abb0693709de861963633"
+    },
+    {
+      "file": "evidence/05-改payload.png",
+      "sha256": "25270e84e133479b58cea5e47d71b8108b501cf33e477f9c1f53ac7ce29bf9d5"
+    },
+    {
+      "file": "evidence/06-无效endpoint失败.png",
+      "sha256": "3079681fb210a07c43857591a255d43c0498d7872709e4f71c08dc9f739ad37d"
+    },
+    {
+      "file": "evidence/078a37e0cb2d4afda9106f553b42817b-verify.html",
+      "sha256": "1cc150c5555c7ba8e8391be56044222b2d39b6237e8b6cf2492e761a18ce25ad"
+    },
+    {
+      "file": "evidence/078a37e0cb2d4afda9106f553b42817b-verify.json",
+      "sha256": "55c1b2cb2b3d894bd8ffac867b41f3350a9dee529fd27062c184eeb77cd8f3c2"
+    },
+    {
+      "file": "evidence/0eb2f158eb86450c9fb58a5600350cad-failed-lab01.html",
+      "sha256": "62089404aa786d05190c12f49fc38f8755c83089b11419f6a921eafbdd663ad3"
+    },
+    {
+      "file": "evidence/0eb2f158eb86450c9fb58a5600350cad-failed-lab01.json",
+      "sha256": "89383ff1e3b4dd645a46b02d41bef4ce21d6bbbf4b33867fe2d01cd8da6c4e76"
+    },
+    {
+      "file": "evidence/20e8ed6a426e4a99b189c6fdfc9af52d-environment.html",
+      "sha256": "47e4c2cdba629ab6853431e9ac28789eb27c393dcb9175fa6e3e30433d6c0c4c"
+    },
+    {
+      "file": "evidence/20e8ed6a426e4a99b189c6fdfc9af52d-environment.json",
+      "sha256": "80d144269154c4d6d382b00d7b282b21062d8aca25b3b242d81669793803424c"
+    },
+    {
+      "file": "evidence/255bf35234a541b38e0c1fd864309f8d-student_object_roundtrip.html",
+      "sha256": "aae4865e5acf1a49ee9b72e541f1407bcf6fa848a45918d89c6b492fca19c7a1"
+    },
+    {
+      "file": "evidence/255bf35234a541b38e0c1fd864309f8d-student_object_roundtrip.json",
+      "sha256": "19712e4805d0f7bcc8dfb5f92c5404d265aa5b09583301490e9d8367d5acec02"
+    },
+    {
+      "file": "evidence/2b14c3e59cf34acb822859bf250a7240-student_object_roundtrip.html",
+      "sha256": "97d3de024c3654c80e41b295f7974630dfd8e4935b22b9b6122222c9d8e48794"
+    },
+    {
+      "file": "evidence/2b14c3e59cf34acb822859bf250a7240-student_object_roundtrip.json",
+      "sha256": "575381d4371bde2d4ee9b92e121d240fa9fd55c8dd160d2844b3efa43df608e8"
+    },
+    {
+      "file": "evidence/38c0cdee1cd743f18dc88b67320a0a95-final.html",
+      "sha256": "65e0fea4cd80a6bb6d067bbdef8901f6b2fad32b7ff1f55b98df03080099d830"
+    },
+    {
+      "file": "evidence/38c0cdee1cd743f18dc88b67320a0a95-final.json",
+      "sha256": "6f5617584c68ae72ad3fcb0accbf5eb7eed5687c998d9203715c3f34cab0e43f"
+    },
+    {
+      "file": "evidence/3aa1dfcc40fb4f4eb2d1abe6665080f9-failed-lab01.html",
+      "sha256": "4402ec0a2fd6fe57494d41e1314024d19aae944f9e74c5ca3c3ba2bbd32f69d6"
+    },
+    {
+      "file": "evidence/3aa1dfcc40fb4f4eb2d1abe6665080f9-failed-lab01.json",
+      "sha256": "d684d09a032b14abba8a38ab451c93d0bbf3b985f998593c68a092b52eb74fa7"
+    },
+    {
+      "file": "evidence/769a6e10fd2947e3bc267aa564cce5cc-environment.html",
+      "sha256": "ea9d66a33cbc8da0c8dbec33747b09cfc7ed1f45df1e14120b19c74c3d7bd394"
+    },
+    {
+      "file": "evidence/769a6e10fd2947e3bc267aa564cce5cc-environment.json",
+      "sha256": "899be564890e0f1f6594cabe5f909238d734500284fae26f7c0b1390afd5e57a"
+    },
+    {
+      "file": "evidence/c853cb81bba1483d9e98069d50f8088b-verify.html",
+      "sha256": "ef27404761f41dd346a5756c0de249aaec5be863bd78e61e4b41e15b3f73c397"
+    },
+    {
+      "file": "evidence/c853cb81bba1483d9e98069d50f8088b-verify.json",
+      "sha256": "e858f4d0785a222d0ab7ec82b9908946a381a3ff29c6da34d05bdfe907c6bc6c"
+    },
+    {
+      "file": "evidence/ed66cb5f96ef447d8dffff1d7620ea6d-start.html",
+      "sha256": "ac44f98769c47807257958d94dc21a2d208adfdc0f05812436ff71378685dfd7"
+    },
+    {
+      "file": "evidence/ed66cb5f96ef447d8dffff1d7620ea6d-start.json",
+      "sha256": "87170eeeccf87e80809f180e34e982cb22a521bbaab147501a5e9555dfd733e1"
+    },
+    {
+      "file": "evidence/fccef7b282a84e84b82f38d5613a3cfa-student_object_roundtrip.html",
+      "sha256": "cbfedcf54e237f3824f9120b15ed43bb4f86fc958daa0109e0e79c57cb9af749"
+    },
+    {
+      "file": "evidence/fccef7b282a84e84b82f38d5613a3cfa-student_object_roundtrip.json",
+      "sha256": "278102746b5ee179f8119268e81e986e4ecf9f58fb2724ab7f3330aad9dba8bf"
+    },
+    {
+      "file": "object_roundtrip.diff",
+      "sha256": "1c9449bf98e5a79bc2c07449887226ea61b91a98728ecb317b634293ae7ec2c0"
+    },
+    {
+      "file": "screenshots/00-实验环境.png",
+      "sha256": "eb8ca51d72741da08d98400e85534e088582f01add2683b7f2fadeb16e016ea4"
+    },
+    {
+      "file": "screenshots/01-身份登记.png",
+      "sha256": "e797372b4c469cefd80f4a69c93f6a06ca6dbb5331bdd27763aeb31f5b6b1a22"
+    },
+    {
+      "file": "screenshots/02-最终结果.png",
+      "sha256": "d2124c21a69063ebe7cb4695153c923e4b7edd845656280542ecf0747ab6d696"
+    },
+    {
+      "file": "screenshots/03-附件基线.png",
+      "sha256": "1f91645c8237a8fb0009d5b7b7ece8d6f92fd10c5af96bcccc263be2fdc032d7"
+    },
+    {
+      "file": "screenshots/04-改对象键.png",
+      "sha256": "fa9e4615afd1a4faef1f510b304cd41cc2a7a139ba0abb0693709de861963633"
+    },
+    {
+      "file": "screenshots/05-改payload.png",
+      "sha256": "25270e84e133479b58cea5e47d71b8108b501cf33e477f9c1f53ac7ce29bf9d5"
+    },
+    {
+      "file": "screenshots/06-无效endpoint失败.png",
+      "sha256": "3079681fb210a07c43857591a255d43c0498d7872709e4f71c08dc9f739ad37d"
+    },
+    {
+      "file": "student_object_roundtrip.py",
+      "sha256": "cb71129893312f4f132991193b8cad137d459f6a4703579dcd81b64289dd0327"
+    },
+    {
+      "file": "实验01报告_2410311322.pdf",
+      "sha256": "27e42eff7d373e39cd75e16e835f118719ca6c0874cad0903d2139b74badf700"
+    },
+    {
+      "file": "陶志杰-实验1-2410311322.docx",
+      "sha256": "937babb956750f10bbe5cb90a1f50ae697916d7f08af3b731c5cb73c11bdeff3"
+    },
+    {
+      "file": "预测原稿.md",
+      "sha256": "15e6f3013a0cf6c7feb695aa34e046faf921bfa9697e2544d6183e94db50eb02"
+    }
+  ],
+  "runs": [
+    {
+      "file": "evidence/035558819c5f4641b9440554a6aa7844-expected-failure.json",
+      "sha256": "3e80a31b18bdec90889f91dbe9508801a6a99b11df12aaff3c7add3af94588b8",
+      "_evidence": {
+        "schema_version": 1,
+        "student_id": "2410311322",
+        "experiment_id": "01",
+        "run_id": "035558819c5f4641b9440554a6aa7844",
+        "captured_at": "2026-10-25T08:03:14.838739+00:00",
+        "stage": "expected-failure"
+      }
+    },
+    {
+      "file": "evidence/038a15d9c9c1472196090c5630ec7842-failed-lab01.json",
+      "sha256": "302fe27e1ee6beae3647b7761def6a732536b172d867bac0c1fcfd920060d53c",
+      "_evidence": {
+        "schema_version": 1,
+        "student_id": "2410311322",
+        "experiment_id": "01",
+        "run_id": "038a15d9c9c1472196090c5630ec7842",
+        "captured_at": "2026-10-25T08:03:41.019010+00:00",
+        "stage": "failed-lab01"
+      }
+    },
+    {
+      "file": "evidence/078a37e0cb2d4afda9106f553b42817b-verify.json",
+      "sha256": "55c1b2cb2b3d894bd8ffac867b41f3350a9dee529fd27062c184eeb77cd8f3c2",
+      "_evidence": {
+        "schema_version": 1,
+        "student_id": "2410311322",
+        "experiment_id": "01",
+        "run_id": "078a37e0cb2d4afda9106f553b42817b",
+        "captured_at": "2026-10-25T08:04:27.092908+00:00",
+        "stage": "verify"
+      }
+    },
+    {
+      "file": "evidence/0eb2f158eb86450c9fb58a5600350cad-failed-lab01.json",
+      "sha256": "89383ff1e3b4dd645a46b02d41bef4ce21d6bbbf4b33867fe2d01cd8da6c4e76",
+      "_evidence": {
+        "schema_version": 1,
+        "student_id": "2410311322",
+        "experiment_id": "01",
+        "run_id": "0eb2f158eb86450c9fb58a5600350cad",
+        "captured_at": "2026-10-25T08:03:15.433135+00:00",
+        "stage": "failed-lab01"
+      }
+    },
+    {
+      "file": "evidence/20e8ed6a426e4a99b189c6fdfc9af52d-environment.json",
+      "sha256": "80d144269154c4d6d382b00d7b282b21062d8aca25b3b242d81669793803424c",
+      "_evidence": {
+        "schema_version": 1,
+        "student_id": "2410311322",
+        "experiment_id": "01",
+        "run_id": "20e8ed6a426e4a99b189c6fdfc9af52d",
+        "captured_at": "2026-10-25T08:42:45.659912+00:00",
+        "stage": "environment"
+      }
+    },
+    {
+      "file": "evidence/255bf35234a541b38e0c1fd864309f8d-student_object_roundtrip.json",
+      "sha256": "19712e4805d0f7bcc8dfb5f92c5404d265aa5b09583301490e9d8367d5acec02",
+      "_evidence": {
+        "schema_version": 1,
+        "student_id": "2410311322",
+        "experiment_id": "01",
+        "run_id": "255bf35234a541b38e0c1fd864309f8d",
+        "captured_at": "2026-10-25T08:02:19.107428+00:00",
+        "stage": "student_object_roundtrip"
+      }
+    },
+    {
+      "file": "evidence/2b14c3e59cf34acb822859bf250a7240-student_object_roundtrip.json",
+      "sha256": "575381d4371bde2d4ee9b92e121d240fa9fd55c8dd160d2844b3efa43df608e8",
+      "_evidence": {
+        "schema_version": 1,
+        "student_id": "2410311322",
+        "experiment_id": "01",
+        "run_id": "2b14c3e59cf34acb822859bf250a7240",
+        "captured_at": "2026-10-25T08:02:52.617413+00:00",
+        "stage": "student_object_roundtrip"
+      }
+    },
+    {
+      "file": "evidence/3aa1dfcc40fb4f4eb2d1abe6665080f9-failed-lab01.json",
+      "sha256": "d684d09a032b14abba8a38ab451c93d0bbf3b985f998593c68a092b52eb74fa7",
+      "_evidence": {
+        "schema_version": 1,
+        "student_id": "2410311322",
+        "experiment_id": "01",
+        "run_id": "3aa1dfcc40fb4f4eb2d1abe6665080f9",
+        "captured_at": "2026-10-25T08:03:35.369822+00:00",
+        "stage": "failed-lab01"
+      }
+    },
+    {
+      "file": "evidence/769a6e10fd2947e3bc267aa564cce5cc-environment.json",
+      "sha256": "899be564890e0f1f6594cabe5f909238d734500284fae26f7c0b1390afd5e57a",
+      "_evidence": {
+        "schema_version": 1,
+        "student_id": "2410311322",
+        "experiment_id": "01",
+        "run_id": "769a6e10fd2947e3bc267aa564cce5cc",
+        "captured_at": "2026-10-25T08:41:31.558640+00:00",
+        "stage": "environment"
+      }
+    },
+    {
+      "file": "evidence/c853cb81bba1483d9e98069d50f8088b-verify.json",
+      "sha256": "e858f4d0785a222d0ab7ec82b9908946a381a3ff29c6da34d05bdfe907c6bc6c",
+      "_evidence": {
+        "schema_version": 1,
+        "student_id": "2410311322",
+        "experiment_id": "01",
+        "run_id": "c853cb81bba1483d9e98069d50f8088b",
+        "captured_at": "2026-10-25T08:00:57.389040+00:00",
+        "stage": "verify"
+      }
+    },
+    {
+      "file": "evidence/fccef7b282a84e84b82f38d5613a3cfa-student_object_roundtrip.json",
+      "sha256": "278102746b5ee179f8119268e81e986e4ecf9f58fb2724ab7f3330aad9dba8bf",
+      "_evidence": {
+        "schema_version": 1,
+        "student_id": "2410311322",
+        "experiment_id": "01",
+        "run_id": "fccef7b282a84e84b82f38d5613a3cfa",
+        "captured_at": "2026-10-25T08:01:17.464278+00:00",
+        "stage": "student_object_roundtrip"
+      }
+    }
+  ],
+  "screenshots": [
+    {
+      "file": "evidence/00-实验环境.png",
+      "sha256": "eb8ca51d72741da08d98400e85534e088582f01add2683b7f2fadeb16e016ea4"
+    },
+    {
+      "file": "evidence/01-身份登记.png",
+      "sha256": "e797372b4c469cefd80f4a69c93f6a06ca6dbb5331bdd27763aeb31f5b6b1a22"
+    },
+    {
+      "file": "evidence/02-最终结果.png",
+      "sha256": "d2124c21a69063ebe7cb4695153c923e4b7edd845656280542ecf0747ab6d696"
+    },
+    {
+      "file": "evidence/03-附件基线.png",
+      "sha256": "1f91645c8237a8fb0009d5b7b7ece8d6f92fd10c5af96bcccc263be2fdc032d7"
+    },
+    {
+      "file": "evidence/04-改对象键.png",
+      "sha256": "fa9e4615afd1a4faef1f510b304cd41cc2a7a139ba0abb0693709de861963633"
+    },
+    {
+      "file": "evidence/05-改payload.png",
+      "sha256": "25270e84e133479b58cea5e47d71b8108b501cf33e477f9c1f53ac7ce29bf9d5"
+    },
+    {
+      "file": "evidence/06-无效endpoint失败.png",
+      "sha256": "3079681fb210a07c43857591a255d43c0498d7872709e4f71c08dc9f739ad37d"
+    }
+  ],
+  "status": "pending_teacher_screenshot_review",
+  "note": "学生生成清单不等于验收通过；教师须用包外复核记录逐张确认可见学号与运行标识。"
+}

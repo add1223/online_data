@@ -1,0 +1,11 @@
+--- 01. 云端数据接口与可复现环境/附件/student_object_roundtrip.py
++++ submissions/lab01/student_object_roundtrip.py
+@@ -14,7 +14,7 @@
+ 
+ def make_key():
+     # 独立改动：将共享前缀改为含自己学号的前缀，保留文件后缀。
+-    return "shared/raw/demo.json"
++    return "students/2410311322/raw/demo.json"
+ 
+ 
+ def main():

@@ -1,0 +1,18 @@
+{
+  "kind": "coursekit.run",
+  "_evidence": {
+    "schema_version": 1,
+    "student_id": "2410311322",
+    "experiment_id": "01",
+    "run_id": "038a15d9c9c1472196090c5630ec7842",
+    "captured_at": "2026-10-25T08:03:41.019010+00:00",
+    "stage": "failed-lab01"
+  },
+  "result": {
+    "passed": false,
+    "error": "FileExistsError: [WinError 183] 当文件已存在时，无法创建该文件。: 'D:\\\\mumu\\\\work\\\\outputs\\\\lab01\\\\downloaded-events.jsonl.9E7fd1B7' -> 'D:\\\\mumu\\\\work\\\\outputs\\\\lab01\\\\downloaded-events.jsonl'"
+  },
+  "artifacts": [],
+  "stderr": "Traceback (most recent call last):\n  File \"D:\\mumu\\work\\coursekit\\__main__.py\", line 64, in main\n    getattr(pipeline, name)(**kwargs)\n  File \"D:\\mumu\\work\\coursekit\\pipeline.py\", line 86, in lab01\n    s3.download_file(bucket, key, str(saved))\n  File \"D:\\mumu\\work\\.venv\\Lib\\site-packages\\botocore\\context.py\", line 123, in wrapper\n    return func(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\mumu\\work\\.venv\\Lib\\site-packages\\boto3\\s3\\inject.py\", line 223, in download_file\n    return transfer.download_file(\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\mumu\\work\\.venv\\Lib\\site-packages\\boto3\\s3\\transfer.py\", line 484, in download_file\n    future.result()\n  File \"D:\\mumu\\work\\.venv\\Lib\\site-packages\\s3transfer\\futures.py\", line 111, in result\n    return self._coordinator.result()\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\mumu\\work\\.venv\\Lib\\site-packages\\s3transfer\\futures.py\", line 287, in result\n    raise self._exception\n  File \"D:\\mumu\\work\\.venv\\Lib\\site-packages\\s3transfer\\tasks.py\", line 142, in __call__\n    return self._execute_main(kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\mumu\\work\\.venv\\Lib\\site-packages\\s3transfer\\tasks.py\", line 165, in _execute_main\n    return_value = self._main(**kwargs)\n                   ^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\mumu\\work\\.venv\\Lib\\site-packages\\s3transfer\\download.py\", line 975, in _main\n    osutil.rename_file(fileobj.name, final_filename)\n  File \"D:\\mumu\\work\\.venv\\Lib\\site-packages\\s3transfer\\utils.py\", line 299, in rename_file\n    rename_file(current_filename, new_filename)\n  File \"D:\\mumu\\work\\.venv\\Lib\\site-packages\\s3transfer\\compat.py\", line 32, in rename_file\n    os.rename(current_filename, new_filename)\nFileExistsError: [WinError 183] 当文件已存在时，无法创建该文件。: 'D:\\\\mumu\\\\work\\\\outputs\\\\lab01\\\\downloaded-events.jsonl.9E7fd1B7' -> 'D:\\\\mumu\\\\work\\\\outputs\\\\lab01\\\\downloaded-events.jsonl'\n",
+  "exit_code": 1
+}
