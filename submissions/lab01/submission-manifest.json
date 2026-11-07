@@ -4,13 +4,13 @@
     "schema_version": 1,
     "student_id": "2410311322",
     "experiment_id": "01",
-    "run_id": "a1b4541ba50247f796fefa69314c209c",
-    "captured_at": "2026-11-07T15:17:12.481528+00:00",
+    "run_id": "bd89972a902d49149ec429f7947a9736",
+    "captured_at": "2026-11-07T15:23:09.945385+00:00",
     "stage": "submission"
   },
   "report": {
     "file": "实验01报告_2410311322.pdf",
-    "sha256": "3456110e780244dd9ee0e9d737d736aec8c3937fc205b9262e6863c87099ea01"
+    "sha256": "8a4fd196653e54e89744798219044d389ef5fa5d3e218ae35a0eea3c2f2fe37e"
   },
   "files": [
     {
@@ -191,11 +191,11 @@
     },
     {
       "file": "实验01报告_2410311322.pdf",
-      "sha256": "3456110e780244dd9ee0e9d737d736aec8c3937fc205b9262e6863c87099ea01"
+      "sha256": "8a4fd196653e54e89744798219044d389ef5fa5d3e218ae35a0eea3c2f2fe37e"
     },
     {
       "file": "陶志杰-实验1-2410311322.docx",
-      "sha256": "2adca9e12514d918aea2ca9dc8b3718ee83fe8e97e16d0f6c40b4c301f5bb5a8"
+      "sha256": "c25e085c7c1f063d4eccf0c4346cf6e6126557a3c903133c2311c3d89aee3554"
     },
     {
       "file": "预测原稿.md",
