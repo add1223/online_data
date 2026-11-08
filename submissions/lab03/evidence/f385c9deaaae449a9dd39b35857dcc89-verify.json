@@ -1,0 +1,87 @@
+{
+  "kind": "coursekit.run",
+  "_evidence": {
+    "schema_version": 1,
+    "student_id": "2410311322",
+    "experiment_id": "03",
+    "run_id": "f385c9deaaae449a9dd39b35857dcc89",
+    "captured_at": "2026-11-03T02:30:53.299271+00:00",
+    "stage": "verify"
+  },
+  "result": {
+    "workers": 2,
+    "partitions": 8,
+    "worker_pids": {
+      "tcp://127.0.0.1:64804": 9828,
+      "tcp://127.0.0.1:64807": 19904
+    },
+    "scheduler_workers": 2,
+    "task_count": 115,
+    "partition_rows_after_shuffle": [
+      2023,
+      0,
+      14008,
+      3969,
+      0,
+      0,
+      0,
+      0
+    ],
+    "matches_duckdb": true,
+    "duckdb_seconds": 0.06691139999998086,
+    "startup_seconds": 7.177623799999992,
+    "compute_seconds": 13.66007239999999,
+    "total_seconds": 21.845726799999966,
+    "silver_sha256": "516b3d78aab91c1487d9a24979eaef514c5acb7309d0d82a6688a762836634dc",
+    "aggregate": [
+      {
+        "service": "assistant",
+        "requests": 14008,
+        "input_tokens": 12631850,
+        "output_tokens": 4310029,
+        "latency_ms_sum": 28448309
+      },
+      {
+        "service": "batch",
+        "requests": 2023,
+        "input_tokens": 1816567,
+        "output_tokens": 616515,
+        "latency_ms_sum": 4079006
+      },
+      {
+        "service": "search",
+        "requests": 3969,
+        "input_tokens": 3567223,
+        "output_tokens": 1219318,
+        "latency_ms_sum": 8137035
+      }
+    ],
+    "timing_note": "total includes separate partition diagnostics; do not claim linear speedup"
+  },
+  "artifacts": [
+    {
+      "file": "outputs/lab03/benchmark-w2-p8.json",
+      "sha256": "f4c4e3e50e5ab2aa54b14bccb61da6e3df4ce02f860a3fb659c1b8a98d1f979d",
+      "_evidence": {
+        "schema_version": 1,
+        "student_id": "2410311322",
+        "experiment_id": "03",
+        "run_id": "f385c9deaaae449a9dd39b35857dcc89",
+        "captured_at": "2026-11-03T02:30:53.299271+00:00",
+        "stage": "benchmark-w2-p8"
+      }
+    },
+    {
+      "file": "outputs/lab03/benchmark.json",
+      "sha256": "91e01a47c1d98777ef84dcf5a6b521df79fd7018e67c40d2bc6bd773a32b0bc1",
+      "_evidence": {
+        "schema_version": 1,
+        "student_id": "2410311322",
+        "experiment_id": "03",
+        "run_id": "f385c9deaaae449a9dd39b35857dcc89",
+        "captured_at": "2026-11-03T02:30:53.299271+00:00",
+        "stage": "benchmark"
+      }
+    }
+  ]
+}

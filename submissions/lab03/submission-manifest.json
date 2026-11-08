@@ -1,0 +1,563 @@
+{
+  "kind": "coursekit.submission",
+  "_evidence": {
+    "schema_version": 1,
+    "student_id": "2410311322",
+    "experiment_id": "03",
+    "run_id": "ef47cb05ba404ceaac7285870bcf8fdd",
+    "captured_at": "2026-11-07T15:39:28.311918+00:00",
+    "stage": "submission"
+  },
+  "report": {
+    "file": "实验03报告_2410311322.pdf",
+    "sha256": "4e18a3897409e879cb7a17b19bf9a35eb678725374f5c0a95b0467f076b8b0bf"
+  },
+  "files": [
+    {
+      "file": "benchmarks/benchmark-w1-p8.json",
+      "sha256": "499d24fe4b82e00aec4c62d33b9415f34c6d45ad61f88945e51d18363f2c84a3"
+    },
+    {
+      "file": "benchmarks/benchmark-w2-p4.json",
+      "sha256": "13feaf49e1a5f98bdce9e016222666a200801d9e9097bf190a52444fa3f153f2"
+    },
+    {
+      "file": "benchmarks/benchmark-w2-p8.json",
+      "sha256": "54ba9063565cb844a9e8fee311fc9f71bc15a2337a5598c618933145aba45706"
+    },
+    {
+      "file": "evidence/00-实验环境.png",
+      "sha256": "6f7395ec1d7c8e770a8325906a60213a8fe27d8d75cbdbb98bfc54a159ce8a6e"
+    },
+    {
+      "file": "evidence/01-单worker.png",
+      "sha256": "83cd19ea503f82bc15a4e6e4e30eb21cc0018a1a4749fedea0f0b1e522c88ea1"
+    },
+    {
+      "file": "evidence/02-双worker.png",
+      "sha256": "8984e53b807debfffb46c71d4f47ac4473e86f10b6c46cbeeee9ea92c797f102"
+    },
+    {
+      "file": "evidence/03-阈值1000.png",
+      "sha256": "c51bffd5bb2c91811cc2eedc4a7be9108188d315c08c987d65617c4710f4e3b0"
+    },
+    {
+      "file": "evidence/04-阈值2000含错误统计.png",
+      "sha256": "be5590d44d2efe10241ebbac2fdb5fc5d9a9cf973aed6d49ac612aa03e4f749f"
+    },
+    {
+      "file": "evidence/04af09864f2248348afe354bcec7a4cd-verify.html",
+      "sha256": "cbbfef6b47b74756b78a5b13661fa1b585473853df45132fc6d0ffe6ebe037ef"
+    },
+    {
+      "file": "evidence/04af09864f2248348afe354bcec7a4cd-verify.json",
+      "sha256": "6f23204b486cf5e6bd2debef0c16adfac2208e9a225f6e32be7bcb2ab3496489"
+    },
+    {
+      "file": "evidence/05-错误统计核验.png",
+      "sha256": "efa43b20d9074b75a86820120fe6ef5a9376a4621b17d2accd465f1f8113cc90"
+    },
+    {
+      "file": "evidence/06-无效worker失败.png",
+      "sha256": "2590591aa4008875989657eef1e08107a187338d92da0bf3a2177e4f5457617c"
+    },
+    {
+      "file": "evidence/07-恢复.png",
+      "sha256": "bdec617e9316d21167fc942b8e441d993eabbaffc63de728f7e6c7c6f63e8696"
+    },
+    {
+      "file": "evidence/08-w2p4.png",
+      "sha256": "c4d6a5842ed3526d232f0306c01840edfd2a58e4350d6724770384897bf47e1c"
+    },
+    {
+      "file": "evidence/14600c346ff94314b6859209a980911e-check_error_extension.html",
+      "sha256": "7f0bc8c8a6f694e0ca3b6bddd0fcacdb3f7a44bf281ef5600c5834b169e3a18d"
+    },
+    {
+      "file": "evidence/14600c346ff94314b6859209a980911e-check_error_extension.json",
+      "sha256": "8e96c67d2d1485cfeb95c632fe01e916dfb70b2ca59b6a157b5b89bb7980ec32"
+    },
+    {
+      "file": "evidence/2de78de823524c01a44d16b593f12e08-verify.html",
+      "sha256": "a95c62d8a818b7bcaf28d41f44e6c8db23734db39b433615e9617470154c3409"
+    },
+    {
+      "file": "evidence/2de78de823524c01a44d16b593f12e08-verify.json",
+      "sha256": "d743c994a3d41f16a53bfde83ac9efb27f4b9b38f1f31dfaefa6a8ccaef0aef2"
+    },
+    {
+      "file": "evidence/391e1f8459a34685a1c58f4b8e40d9a7-failed-lab03.html",
+      "sha256": "dd0df04aaaf199f15bb4ccb77345307e863712e451f3b27fb788ff97fbad8e85"
+    },
+    {
+      "file": "evidence/391e1f8459a34685a1c58f4b8e40d9a7-failed-lab03.json",
+      "sha256": "5fcc245a7f132f0037e672faa80d95409190f0beaa9e8797e1ef7f4d4a52d30c"
+    },
+    {
+      "file": "evidence/3f435811b5d54eda9827737dd7e4abb7-start.html",
+      "sha256": "646e330b527e4d81efd52ed6634c10a4b91c982c732369092563b01d2ae0377a"
+    },
+    {
+      "file": "evidence/3f435811b5d54eda9827737dd7e4abb7-start.json",
+      "sha256": "3148194d2c4333c5a8792f519cca1683e7cccdd9e62ff29d6cef6198583c726c"
+    },
+    {
+      "file": "evidence/499231de7d9d4d22961a047d15e2d326-verify.html",
+      "sha256": "a36dccb0f4a644c0fb97d186749a00c563b1fc41b433fde7fb7c422a4800e57e"
+    },
+    {
+      "file": "evidence/499231de7d9d4d22961a047d15e2d326-verify.json",
+      "sha256": "85398f9de8560d1d993c680f0885afb4087d84bf1f0b8b6fd18af6f3e43fca00"
+    },
+    {
+      "file": "evidence/70223dc42bc84be08921624c04ad7167-student_latency.html",
+      "sha256": "a668edc009172aeeaf3204d29ee9fc1ea580d1332b8388b841db4daf8b130476"
+    },
+    {
+      "file": "evidence/70223dc42bc84be08921624c04ad7167-student_latency.json",
+      "sha256": "73c15eb9a76e57c3e6e6076b6f3178f5a657c4b780c78c3138ef2c2603874d25"
+    },
+    {
+      "file": "evidence/714778e5395648ffa15c2367f5b924cd-verify.html",
+      "sha256": "27815e81dd3011eb523eff55e12a2ce387409d01fa9b47be2076948880aeaed2"
+    },
+    {
+      "file": "evidence/714778e5395648ffa15c2367f5b924cd-verify.json",
+      "sha256": "d6743755795b7e67143203b7d49de1ea5d04ef436b4c24969ce4dd8c2b760980"
+    },
+    {
+      "file": "evidence/77c27f791114403bacfa0b3581690df6-expected-failure.html",
+      "sha256": "4e0d8c7f64d0093a4907200216c5393f63f5976db286ae22271de6db34073f6d"
+    },
+    {
+      "file": "evidence/77c27f791114403bacfa0b3581690df6-expected-failure.json",
+      "sha256": "f3f388138d1f203afcf1e3e131fb3bfe443b62015670c4a22c514d35036ebaea"
+    },
+    {
+      "file": "evidence/7e024658b878411a8cbe6dddd281ca32-student_latency.html",
+      "sha256": "b9f1c2ef8361d90eaf6d1e81c5260bdfbea412c5d1b6fb07bb7f57d547edba70"
+    },
+    {
+      "file": "evidence/7e024658b878411a8cbe6dddd281ca32-student_latency.json",
+      "sha256": "f4a2f1a96a2ea17e1f81946f22e5f57f2ffd938e4e536bf66e4e1befc7f9fa60"
+    },
+    {
+      "file": "evidence/872f94e34cae41cfa74b6f76d1b08b9b-student_latency.html",
+      "sha256": "ee6113643587c677e4cc9c9111ee33368a1e4b6cf82c2329ce8aeccf56c41175"
+    },
+    {
+      "file": "evidence/872f94e34cae41cfa74b6f76d1b08b9b-student_latency.json",
+      "sha256": "52634299d49298a7e510e467f4a5dd43041aa1fdaaa761cdc7079bd5dc286fc1"
+    },
+    {
+      "file": "evidence/99f07658851e4680a20e37748acb7895-student_latency.html",
+      "sha256": "6a7984e57e6a3a03c45d2b3913df1522e1be4e8165e3c44f7a2992f815844b75"
+    },
+    {
+      "file": "evidence/99f07658851e4680a20e37748acb7895-student_latency.json",
+      "sha256": "c5eb1a5d14244f8d26e4308cb9d692cf5d35b91ffe93d249249fdb8f9d7d6f31"
+    },
+    {
+      "file": "evidence/bbef4b0fb25f49ab883930733f865511-environment.html",
+      "sha256": "5e0d17a970a1531cdbbba45a749ca82f46cd21fecf821c5faa2276ff95c76686"
+    },
+    {
+      "file": "evidence/bbef4b0fb25f49ab883930733f865511-environment.json",
+      "sha256": "827465a041d27cd472c6ec0ed4ed7b7df2bd839bb34eac8471e24a9550e4df34"
+    },
+    {
+      "file": "evidence/e5b8e9affba04f70b40d1d6b3d1e039a-failed-lab03.html",
+      "sha256": "74b4fe946fa2212e27ee5800566d1752e9ba0e21a33bfa398c1094c83010d43a"
+    },
+    {
+      "file": "evidence/e5b8e9affba04f70b40d1d6b3d1e039a-failed-lab03.json",
+      "sha256": "a325271f898e564dde492f0010b896f436afc35ed3ee32d1be6426858a520961"
+    },
+    {
+      "file": "evidence/e8b60938d8a44695b34fd19290caab96-expected-failure.html",
+      "sha256": "d052e5d12dedfe2f53dfe2a0b6baa8620ea37e6c33195e0c778d3639fc09aaeb"
+    },
+    {
+      "file": "evidence/e8b60938d8a44695b34fd19290caab96-expected-failure.json",
+      "sha256": "75ee7022b9bdd444c5cfc7131679cc019f9f9fc81fa47fd3df76fc5a767330bb"
+    },
+    {
+      "file": "evidence/f259b523d91b445fbdc017165acb45aa-student_latency.html",
+      "sha256": "acc475e4d7f12c838d67f2402e434e43379eecb26667952d537c49d84cfa4b14"
+    },
+    {
+      "file": "evidence/f259b523d91b445fbdc017165acb45aa-student_latency.json",
+      "sha256": "6a347b41d2203bf27363e222df98ff801d8066ea2496b93899938a9014d4a9b2"
+    },
+    {
+      "file": "evidence/f385c9deaaae449a9dd39b35857dcc89-verify.html",
+      "sha256": "3377d1dc36d29736e9e780bcecde32230fb5e1a52613db8e55083ea5c10df9d0"
+    },
+    {
+      "file": "evidence/f385c9deaaae449a9dd39b35857dcc89-verify.json",
+      "sha256": "ffe44e7ffee0012d1b2383c265919acafa92c1a7aaea3a982a524667f9b6e257"
+    },
+    {
+      "file": "evidence/f3d4013ffcdc417196d1aa3f0ed775ac-start.html",
+      "sha256": "3be9bb47cce9014bfc72e3ebc2acfd1ff067e4862a7cff3cc439695dfe4a46d6"
+    },
+    {
+      "file": "evidence/f3d4013ffcdc417196d1aa3f0ed775ac-start.json",
+      "sha256": "961dabcf817f302b7b1bebc2fbba74903f1db7aaae2f3c9c0fb83e82e02502f5"
+    },
+    {
+      "file": "evidence/f5e759a1542847e5a55bfb683b01b692-student_latency.html",
+      "sha256": "59b243024a9957482d81087bb7748b3493beb841de8997839b5005876bc22966"
+    },
+    {
+      "file": "evidence/f5e759a1542847e5a55bfb683b01b692-student_latency.json",
+      "sha256": "2a4691a6be98c26da9a45d72366e9abbd7ccbf6a8d127850ff936b87bfaf188c"
+    },
+    {
+      "file": "evidence/fccd351b02a747a383b9abf6ee69e009-check_error_extension.html",
+      "sha256": "8430d966bb3631c8fb7d85cc203a927f851cb87f422e18c1f230a0d52fef81e6"
+    },
+    {
+      "file": "evidence/fccd351b02a747a383b9abf6ee69e009-check_error_extension.json",
+      "sha256": "b358584b880447d71e67bb65d64fe3f3a1c272062f747deb5e1c10fb7a34a323"
+    },
+    {
+      "file": "evidence/fd1f669afe6d46f2992e8a96cb9d0d0e-verify.html",
+      "sha256": "66648696506768d795626d191cde869db51dc556c68a68027b9db381050fe142"
+    },
+    {
+      "file": "evidence/fd1f669afe6d46f2992e8a96cb9d0d0e-verify.json",
+      "sha256": "6e2dc6686487c4192d8d41c170bf452d7ce50c94f9263c7e97f0441f427d5de2"
+    },
+    {
+      "file": "hand_calculation.md",
+      "sha256": "12e9cab2f5e70f7d13ff0edefd1e53a31e11487f247a22f82963db7df9ba74c4"
+    },
+    {
+      "file": "latency_aggregate.diff",
+      "sha256": "9f7f4e20af327f5034fef237de0b84138759725d84787c7e4febd6fdeb360d5c"
+    },
+    {
+      "file": "screenshots/00-实验环境.png",
+      "sha256": "6f7395ec1d7c8e770a8325906a60213a8fe27d8d75cbdbb98bfc54a159ce8a6e"
+    },
+    {
+      "file": "screenshots/01-单worker.png",
+      "sha256": "83cd19ea503f82bc15a4e6e4e30eb21cc0018a1a4749fedea0f0b1e522c88ea1"
+    },
+    {
+      "file": "screenshots/02-双worker.png",
+      "sha256": "8984e53b807debfffb46c71d4f47ac4473e86f10b6c46cbeeee9ea92c797f102"
+    },
+    {
+      "file": "screenshots/03-阈值1000.png",
+      "sha256": "c51bffd5bb2c91811cc2eedc4a7be9108188d315c08c987d65617c4710f4e3b0"
+    },
+    {
+      "file": "screenshots/04-阈值2000含错误统计.png",
+      "sha256": "be5590d44d2efe10241ebbac2fdb5fc5d9a9cf973aed6d49ac612aa03e4f749f"
+    },
+    {
+      "file": "screenshots/05-错误统计核验.png",
+      "sha256": "efa43b20d9074b75a86820120fe6ef5a9376a4621b17d2accd465f1f8113cc90"
+    },
+    {
+      "file": "screenshots/06-无效worker失败.png",
+      "sha256": "2590591aa4008875989657eef1e08107a187338d92da0bf3a2177e4f5457617c"
+    },
+    {
+      "file": "screenshots/07-恢复.png",
+      "sha256": "bdec617e9316d21167fc942b8e441d993eabbaffc63de728f7e6c7c6f63e8696"
+    },
+    {
+      "file": "screenshots/08-w2p4.png",
+      "sha256": "c4d6a5842ed3526d232f0306c01840edfd2a58e4350d6724770384897bf47e1c"
+    },
+    {
+      "file": "student_latency_aggregate.py",
+      "sha256": "60ca5f44c2c4bcd775d4445cda0dd17bbe8d36dd7d23d6b1fbad9aab715ebd24"
+    },
+    {
+      "file": "实验03报告_2410311322.pdf",
+      "sha256": "4e18a3897409e879cb7a17b19bf9a35eb678725374f5c0a95b0467f076b8b0bf"
+    },
+    {
+      "file": "陶志杰-实验3-2410311322.docx",
+      "sha256": "8c5f5dc94637575c8eaa44fe8ab6d7029a968e019e53a00944648abbd06e97be"
+    },
+    {
+      "file": "预测原稿.md",
+      "sha256": "a566421375f7dc22b760c4255f51ae1d0462c2af6c9bf219a993630169f6bad0"
+    }
+  ],
+  "runs": [
+    {
+      "file": "evidence/04af09864f2248348afe354bcec7a4cd-verify.json",
+      "sha256": "6f23204b486cf5e6bd2debef0c16adfac2208e9a225f6e32be7bcb2ab3496489",
+      "_evidence": {
+        "schema_version": 1,
+        "student_id": "2410311322",
+        "experiment_id": "03",
+        "run_id": "04af09864f2248348afe354bcec7a4cd",
+        "captured_at": "2026-11-03T02:21:05.226250+00:00",
+        "stage": "verify"
+      }
+    },
+    {
+      "file": "evidence/14600c346ff94314b6859209a980911e-check_error_extension.json",
+      "sha256": "8e96c67d2d1485cfeb95c632fe01e916dfb70b2ca59b6a157b5b89bb7980ec32",
+      "_evidence": {
+        "schema_version": 1,
+        "student_id": "2410311322",
+        "experiment_id": "03",
+        "run_id": "14600c346ff94314b6859209a980911e",
+        "captured_at": "2026-11-03T02:30:03.422745+00:00",
+        "stage": "check_error_extension"
+      }
+    },
+    {
+      "file": "evidence/2de78de823524c01a44d16b593f12e08-verify.json",
+      "sha256": "d743c994a3d41f16a53bfde83ac9efb27f4b9b38f1f31dfaefa6a8ccaef0aef2",
+      "_evidence": {
+        "schema_version": 1,
+        "student_id": "2410311322",
+        "experiment_id": "03",
+        "run_id": "2de78de823524c01a44d16b593f12e08",
+        "captured_at": "2026-11-03T02:22:50.983545+00:00",
+        "stage": "verify"
+      }
+    },
+    {
+      "file": "evidence/391e1f8459a34685a1c58f4b8e40d9a7-failed-lab03.json",
+      "sha256": "5fcc245a7f132f0037e672faa80d95409190f0beaa9e8797e1ef7f4d4a52d30c",
+      "_evidence": {
+        "schema_version": 1,
+        "student_id": "2410311322",
+        "experiment_id": "03",
+        "run_id": "391e1f8459a34685a1c58f4b8e40d9a7",
+        "captured_at": "2026-11-03T02:30:40.651373+00:00",
+        "stage": "failed-lab03"
+      }
+    },
+    {
+      "file": "evidence/499231de7d9d4d22961a047d15e2d326-verify.json",
+      "sha256": "85398f9de8560d1d993c680f0885afb4087d84bf1f0b8b6fd18af6f3e43fca00",
+      "_evidence": {
+        "schema_version": 1,
+        "student_id": "2410311322",
+        "experiment_id": "03",
+        "run_id": "499231de7d9d4d22961a047d15e2d326",
+        "captured_at": "2026-11-03T02:22:10.430095+00:00",
+        "stage": "verify"
+      }
+    },
+    {
+      "file": "evidence/70223dc42bc84be08921624c04ad7167-student_latency.json",
+      "sha256": "73c15eb9a76e57c3e6e6076b6f3178f5a657c4b780c78c3138ef2c2603874d25",
+      "_evidence": {
+        "schema_version": 1,
+        "student_id": "2410311322",
+        "experiment_id": "03",
+        "run_id": "70223dc42bc84be08921624c04ad7167",
+        "captured_at": "2026-11-03T02:23:19.100185+00:00",
+        "stage": "student_latency"
+      }
+    },
+    {
+      "file": "evidence/714778e5395648ffa15c2367f5b924cd-verify.json",
+      "sha256": "d6743755795b7e67143203b7d49de1ea5d04ef436b4c24969ce4dd8c2b760980",
+      "_evidence": {
+        "schema_version": 1,
+        "student_id": "2410311322",
+        "experiment_id": "03",
+        "run_id": "714778e5395648ffa15c2367f5b924cd",
+        "captured_at": "2026-11-03T02:31:37.583655+00:00",
+        "stage": "verify"
+      }
+    },
+    {
+      "file": "evidence/77c27f791114403bacfa0b3581690df6-expected-failure.json",
+      "sha256": "f3f388138d1f203afcf1e3e131fb3bfe443b62015670c4a22c514d35036ebaea",
+      "_evidence": {
+        "schema_version": 1,
+        "student_id": "2410311322",
+        "experiment_id": "03",
+        "run_id": "77c27f791114403bacfa0b3581690df6",
+        "captured_at": "2026-11-03T02:31:31.996349+00:00",
+        "stage": "expected-failure"
+      }
+    },
+    {
+      "file": "evidence/7e024658b878411a8cbe6dddd281ca32-student_latency.json",
+      "sha256": "f4a2f1a96a2ea17e1f81946f22e5f57f2ffd938e4e536bf66e4e1befc7f9fa60",
+      "_evidence": {
+        "schema_version": 1,
+        "student_id": "2410311322",
+        "experiment_id": "03",
+        "run_id": "7e024658b878411a8cbe6dddd281ca32",
+        "captured_at": "2026-11-03T02:30:12.467020+00:00",
+        "stage": "student_latency"
+      }
+    },
+    {
+      "file": "evidence/872f94e34cae41cfa74b6f76d1b08b9b-student_latency.json",
+      "sha256": "52634299d49298a7e510e467f4a5dd43041aa1fdaaa761cdc7079bd5dc286fc1",
+      "_evidence": {
+        "schema_version": 1,
+        "student_id": "2410311322",
+        "experiment_id": "03",
+        "run_id": "872f94e34cae41cfa74b6f76d1b08b9b",
+        "captured_at": "2026-11-03T02:27:50.529245+00:00",
+        "stage": "student_latency"
+      }
+    },
+    {
+      "file": "evidence/99f07658851e4680a20e37748acb7895-student_latency.json",
+      "sha256": "c5eb1a5d14244f8d26e4308cb9d692cf5d35b91ffe93d249249fdb8f9d7d6f31",
+      "_evidence": {
+        "schema_version": 1,
+        "student_id": "2410311322",
+        "experiment_id": "03",
+        "run_id": "99f07658851e4680a20e37748acb7895",
+        "captured_at": "2026-11-03T02:28:34.774105+00:00",
+        "stage": "student_latency"
+      }
+    },
+    {
+      "file": "evidence/bbef4b0fb25f49ab883930733f865511-environment.json",
+      "sha256": "827465a041d27cd472c6ec0ed4ed7b7df2bd839bb34eac8471e24a9550e4df34",
+      "_evidence": {
+        "schema_version": 1,
+        "student_id": "2410311322",
+        "experiment_id": "03",
+        "run_id": "bbef4b0fb25f49ab883930733f865511",
+        "captured_at": "2026-11-03T02:32:18.874927+00:00",
+        "stage": "environment"
+      }
+    },
+    {
+      "file": "evidence/e5b8e9affba04f70b40d1d6b3d1e039a-failed-lab03.json",
+      "sha256": "a325271f898e564dde492f0010b896f436afc35ed3ee32d1be6426858a520961",
+      "_evidence": {
+        "schema_version": 1,
+        "student_id": "2410311322",
+        "experiment_id": "03",
+        "run_id": "e5b8e9affba04f70b40d1d6b3d1e039a",
+        "captured_at": "2026-11-03T02:31:32.529849+00:00",
+        "stage": "failed-lab03"
+      }
+    },
+    {
+      "file": "evidence/e8b60938d8a44695b34fd19290caab96-expected-failure.json",
+      "sha256": "75ee7022b9bdd444c5cfc7131679cc019f9f9fc81fa47fd3df76fc5a767330bb",
+      "_evidence": {
+        "schema_version": 1,
+        "student_id": "2410311322",
+        "experiment_id": "03",
+        "run_id": "e8b60938d8a44695b34fd19290caab96",
+        "captured_at": "2026-11-03T02:30:39.420308+00:00",
+        "stage": "expected-failure"
+      }
+    },
+    {
+      "file": "evidence/f259b523d91b445fbdc017165acb45aa-student_latency.json",
+      "sha256": "6a347b41d2203bf27363e222df98ff801d8066ea2496b93899938a9014d4a9b2",
+      "_evidence": {
+        "schema_version": 1,
+        "student_id": "2410311322",
+        "experiment_id": "03",
+        "run_id": "f259b523d91b445fbdc017165acb45aa",
+        "captured_at": "2026-11-03T02:24:03.939212+00:00",
+        "stage": "student_latency"
+      }
+    },
+    {
+      "file": "evidence/f385c9deaaae449a9dd39b35857dcc89-verify.json",
+      "sha256": "ffe44e7ffee0012d1b2383c265919acafa92c1a7aaea3a982a524667f9b6e257",
+      "_evidence": {
+        "schema_version": 1,
+        "student_id": "2410311322",
+        "experiment_id": "03",
+        "run_id": "f385c9deaaae449a9dd39b35857dcc89",
+        "captured_at": "2026-11-03T02:30:53.299271+00:00",
+        "stage": "verify"
+      }
+    },
+    {
+      "file": "evidence/f5e759a1542847e5a55bfb683b01b692-student_latency.json",
+      "sha256": "2a4691a6be98c26da9a45d72366e9abbd7ccbf6a8d127850ff936b87bfaf188c",
+      "_evidence": {
+        "schema_version": 1,
+        "student_id": "2410311322",
+        "experiment_id": "03",
+        "run_id": "f5e759a1542847e5a55bfb683b01b692",
+        "captured_at": "2026-11-03T02:29:30.703075+00:00",
+        "stage": "student_latency"
+      }
+    },
+    {
+      "file": "evidence/fccd351b02a747a383b9abf6ee69e009-check_error_extension.json",
+      "sha256": "b358584b880447d71e67bb65d64fe3f3a1c272062f747deb5e1c10fb7a34a323",
+      "_evidence": {
+        "schema_version": 1,
+        "student_id": "2410311322",
+        "experiment_id": "03",
+        "run_id": "fccd351b02a747a383b9abf6ee69e009",
+        "captured_at": "2026-11-03T02:30:25.866260+00:00",
+        "stage": "check_error_extension"
+      }
+    },
+    {
+      "file": "evidence/fd1f669afe6d46f2992e8a96cb9d0d0e-verify.json",
+      "sha256": "6e2dc6686487c4192d8d41c170bf452d7ce50c94f9263c7e97f0441f427d5de2",
+      "_evidence": {
+        "schema_version": 1,
+        "student_id": "2410311322",
+        "experiment_id": "03",
+        "run_id": "fd1f669afe6d46f2992e8a96cb9d0d0e",
+        "captured_at": "2026-11-03T02:21:53.099167+00:00",
+        "stage": "verify"
+      }
+    }
+  ],
+  "screenshots": [
+    {
+      "file": "evidence/00-实验环境.png",
+      "sha256": "6f7395ec1d7c8e770a8325906a60213a8fe27d8d75cbdbb98bfc54a159ce8a6e"
+    },
+    {
+      "file": "evidence/01-单worker.png",
+      "sha256": "83cd19ea503f82bc15a4e6e4e30eb21cc0018a1a4749fedea0f0b1e522c88ea1"
+    },
+    {
+      "file": "evidence/02-双worker.png",
+      "sha256": "8984e53b807debfffb46c71d4f47ac4473e86f10b6c46cbeeee9ea92c797f102"
+    },
+    {
+      "file": "evidence/03-阈值1000.png",
+      "sha256": "c51bffd5bb2c91811cc2eedc4a7be9108188d315c08c987d65617c4710f4e3b0"
+    },
+    {
+      "file": "evidence/04-阈值2000含错误统计.png",
+      "sha256": "be5590d44d2efe10241ebbac2fdb5fc5d9a9cf973aed6d49ac612aa03e4f749f"
+    },
+    {
+      "file": "evidence/05-错误统计核验.png",
+      "sha256": "efa43b20d9074b75a86820120fe6ef5a9376a4621b17d2accd465f1f8113cc90"
+    },
+    {
+      "file": "evidence/06-无效worker失败.png",
+      "sha256": "2590591aa4008875989657eef1e08107a187338d92da0bf3a2177e4f5457617c"
+    },
+    {
+      "file": "evidence/07-恢复.png",
+      "sha256": "bdec617e9316d21167fc942b8e441d993eabbaffc63de728f7e6c7c6f63e8696"
+    },
+    {
+      "file": "evidence/08-w2p4.png",
+      "sha256": "c4d6a5842ed3526d232f0306c01840edfd2a58e4350d6724770384897bf47e1c"
+    }
+  ],
+  "status": "pending_teacher_screenshot_review",
+  "note": "学生生成清单不等于验收通过；教师须用包外复核记录逐张确认可见学号与运行标识。"
+}

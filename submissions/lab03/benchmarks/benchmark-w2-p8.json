@@ -1,0 +1,58 @@
+{
+  "workers": 2,
+  "partitions": 8,
+  "worker_pids": {
+    "tcp://127.0.0.1:64853": 4084,
+    "tcp://127.0.0.1:64856": 27136
+  },
+  "scheduler_workers": 2,
+  "task_count": 115,
+  "partition_rows_after_shuffle": [
+    2023,
+    0,
+    14008,
+    3969,
+    0,
+    0,
+    0,
+    0
+  ],
+  "matches_duckdb": true,
+  "duckdb_seconds": 0.041420700000116994,
+  "startup_seconds": 2.5049468999998226,
+  "compute_seconds": 5.620599900000116,
+  "total_seconds": 9.250519199999871,
+  "silver_sha256": "516b3d78aab91c1487d9a24979eaef514c5acb7309d0d82a6688a762836634dc",
+  "aggregate": [
+    {
+      "service": "assistant",
+      "requests": 14008,
+      "input_tokens": 12631850,
+      "output_tokens": 4310029,
+      "latency_ms_sum": 28448309
+    },
+    {
+      "service": "batch",
+      "requests": 2023,
+      "input_tokens": 1816567,
+      "output_tokens": 616515,
+      "latency_ms_sum": 4079006
+    },
+    {
+      "service": "search",
+      "requests": 3969,
+      "input_tokens": 3567223,
+      "output_tokens": 1219318,
+      "latency_ms_sum": 8137035
+    }
+  ],
+  "timing_note": "total includes separate partition diagnostics; do not claim linear speedup",
+  "_evidence": {
+    "schema_version": 1,
+    "student_id": "2410311322",
+    "experiment_id": "03",
+    "run_id": "714778e5395648ffa15c2367f5b924cd",
+    "captured_at": "2026-11-03T02:31:37.583655+00:00",
+    "stage": "benchmark-w2-p8"
+  }
+}

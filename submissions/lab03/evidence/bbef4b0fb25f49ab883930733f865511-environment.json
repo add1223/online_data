@@ -1,0 +1,20 @@
+{
+  "kind": "coursekit.run",
+  "_evidence": {
+    "schema_version": 1,
+    "student_id": "2410311322",
+    "experiment_id": "03",
+    "run_id": "bbef4b0fb25f49ab883930733f865511",
+    "captured_at": "2026-11-03T02:32:18.874927+00:00",
+    "stage": "environment"
+  },
+  "result": null,
+  "artifacts": [],
+  "command": [
+    ".\\.venv\\Scripts\\python.exe",
+    ".\\submissions\\lab01\\env_probe.py"
+  ],
+  "exit_code": 0,
+  "stdout": "python 3.12.9 | exe D:\\mumu\\work\\.venv\\Scripts\\python.exe | os Windows-11-10.0.26200-SP0 | boto3 1.43.93 | moto 5.2.3 | duckdb 1.5.5 | pyarrow 25.0.1\n",
+  "stderr": ""
+}
