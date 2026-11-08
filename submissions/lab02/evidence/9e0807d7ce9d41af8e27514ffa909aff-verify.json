@@ -1,0 +1,72 @@
+{
+  "kind": "coursekit.run",
+  "_evidence": {
+    "schema_version": 1,
+    "student_id": "2410311322",
+    "experiment_id": "02",
+    "run_id": "9e0807d7ce9d41af8e27514ffa909aff",
+    "captured_at": "2026-10-27T02:27:39.487675+00:00",
+    "stage": "verify"
+  },
+  "result": {
+    "raw_rows": 20102,
+    "valid_unique": 20000,
+    "duplicate_rows": 100,
+    "rejected_rows": 2,
+    "conservation": 20102,
+    "raw_bytes": 3892184,
+    "parquet_bytes": 224693,
+    "aggregate": [
+      {
+        "service": "assistant",
+        "requests": 14008,
+        "input_tokens": 12631850,
+        "output_tokens": 4310029,
+        "latency_ms_sum": 28448309,
+        "errors": 543
+      },
+      {
+        "service": "batch",
+        "requests": 2023,
+        "input_tokens": 1816567,
+        "output_tokens": 616515,
+        "latency_ms_sum": 4079006,
+        "errors": 78
+      },
+      {
+        "service": "search",
+        "requests": 3969,
+        "input_tokens": 3567223,
+        "output_tokens": 1219318,
+        "latency_ms_sum": 8137035,
+        "errors": 179
+      }
+    ]
+  },
+  "artifacts": [
+    {
+      "file": "outputs/lab02/quality.json",
+      "sha256": "716c419d1b509615a931b31a8875bd84e127f63f20a4a83dfb2208d6af9199e0",
+      "_evidence": {
+        "schema_version": 1,
+        "student_id": "2410311322",
+        "experiment_id": "02",
+        "run_id": "9e0807d7ce9d41af8e27514ffa909aff",
+        "captured_at": "2026-10-27T02:27:39.487675+00:00",
+        "stage": "quality"
+      }
+    },
+    {
+      "file": "outputs/lab02/quarantine.json",
+      "sha256": "edd0e32908a941403e2211c2ddecd5e02839eeb989560614956fb566877464b8",
+      "_evidence": {
+        "schema_version": 1,
+        "student_id": "2410311322",
+        "experiment_id": "02",
+        "run_id": "9e0807d7ce9d41af8e27514ffa909aff",
+        "captured_at": "2026-10-27T02:27:39.487675+00:00",
+        "stage": "quarantine"
+      }
+    }
+  ]
+}
